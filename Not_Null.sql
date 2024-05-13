@@ -1,0 +1,9 @@
+CREATE TABLE test(
+name VARCHAR(20) NOT NULL, 
+age INT NOT NULL);
+
+DESC test;
+
+INSERT INTO test VALUES ("User 1", 21);
+
+SELECT * FROM test;
